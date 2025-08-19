@@ -37,10 +37,13 @@ lista_b = [4, 5, 6, 1, 2]
 lista_a.extend(lista_b)
 lista_a.remove(1)
 elemento_eliminado = lista_a.pop(3)
-lista_b.clear()
 
 print(elemento_eliminado)
+
+lista_b.clear()
+
 print(lista_a)
+print(lista_b)
 
 # Ejercicio 3: Slicing y eliminación con del
 # Crea una lista con los números del 1 al 10.
@@ -50,7 +53,7 @@ print("\nEjercicio 3:")
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-del lista[3:5]
+del lista[2:5]
 
 print(lista)
 
